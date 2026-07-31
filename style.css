@@ -1,0 +1,207 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Montserrat,sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#0e0e0e;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:22px 8%;
+position:absolute;
+width:100%;
+z-index:100;
+}
+
+.logo{
+font-size:28px;
+font-weight:800;
+color:#f6c33d;
+letter-spacing:2px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:35px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+transition:.3s;
+}
+
+nav a:hover{
+color:#f6c33d;
+}
+
+.quote-btn{
+padding:12px 28px;
+border:2px solid #f6c33d;
+border-radius:50px;
+}
+
+.hero{
+
+height:100vh;
+
+background-image:
+url("https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1800&q=80");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:center;
+position:relative;
+}
+
+.overlay{
+position:absolute;
+inset:0;
+background:rgba(0,0,0,.55);
+}
+
+.hero-text{
+position:relative;
+width:650px;
+margin-left:8%;
+}
+
+.hero h1{
+font-size:72px;
+font-weight:800;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+line-height:1.7;
+color:#ddd;
+margin-bottom:40px;
+}
+
+.main-button{
+
+display:inline-block;
+
+padding:18px 40px;
+
+background:#f6c33d;
+
+color:black;
+
+font-weight:700;
+
+text-decoration:none;
+
+border-radius:40px;
+
+transition:.3s;
+}
+
+.main-button:hover{
+transform:translateY(-4px);
+}
+
+.intro{
+
+padding:120px 10%;
+
+text-align:center;
+
+max-width:1100px;
+
+margin:auto;
+}
+
+.intro h2{
+font-size:48px;
+color:#f6c33d;
+margin-bottom:25px;
+}
+
+.intro p{
+font-size:20px;
+line-height:1.8;
+color:#ccc;
+}
+
+.services{
+padding:120px 8%;
+background:#171717;
+}
+
+.services h2{
+text-align:center;
+font-size:48px;
+margin-bottom:70px;
+}
+
+.service-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:35px;
+}
+
+.service-card{
+padding:40px;
+background:#232323;
+border-radius:20px;
+transition:.3s;
+}
+
+.service-card:hover{
+transform:translateY(-8px);
+}
+
+.service-card h3{
+color:#f6c33d;
+margin-bottom:15px;
+}
+
+.service-card p{
+color:#cfcfcf;
+line-height:1.7;
+}
+
+.cta{
+
+padding:130px 8%;
+
+text-align:center;
+}
+
+.cta h2{
+font-size:52px;
+margin-bottom:35px;
+}
+
+.cta a{
+display:inline-block;
+background:#f6c33d;
+color:black;
+padding:18px 45px;
+font-weight:700;
+border-radius:50px;
+text-decoration:none;
+}
+
+footer{
+padding:35px;
+text-align:center;
+background:black;
+color:#777;
+}
