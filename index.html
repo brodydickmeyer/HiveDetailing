@@ -2,106 +2,755 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Hive Detailing provides premium interior and exterior vehicle detailing in Country Club and St. Joseph, Missouri."
+    >
+
     <title>Hive Detailing | Premium Auto Detailing</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<nav>
+    <header class="site-header" id="siteHeader">
+        <div class="nav-container">
 
-<div class="logo">
-HIVE DETAILING
-</div>
+            <a href="#home" class="brand">
+                <img
+                    src="images/logo.png"
+                    alt="Hive Detailing logo"
+                    class="brand-logo"
+                >
 
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">Services</a></li>
-<li><a href="#">Gallery</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
+                <div class="brand-text">
+                    <span class="brand-name">Hive Detailing</span>
+                    <span class="brand-location">Country Club, Missouri</span>
+                </div>
+            </a>
 
-<a class="quote-btn" href="#">Book Now</a>
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
-</nav>
+            <nav class="main-nav" id="mainNav">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#work">Our Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
 
-<header class="hero">
+            <a href="#contact" class="nav-button">
+                Get a Quote
+            </a>
 
-<div class="overlay"></div>
+        </div>
+    </header>
 
-<div class="hero-text">
+    <main>
 
-<h1>Premium Auto Detailing</h1>
+        <section class="hero" id="home">
 
-<p>
-Bringing showroom-quality results directly to your vehicle.
-Interior details, exterior paint care, ceramic coatings,
-and professional protection.
-</p>
+            <div class="hero-background"></div>
+            <div class="hero-overlay"></div>
 
-<a href="#" class="main-button">
-Book Your Detail
-</a>
+            <div class="hero-content reveal">
 
-</div>
+                <p class="eyebrow">
+                    Premium Auto Detailing
+                </p>
 
-</header>
+                <h1>
+                    Showroom results.
+                    <span>Every detail matters.</span>
+                </h1>
 
-<section class="intro">
+                <p class="hero-description">
+                    Professional interior and exterior detailing designed
+                    to restore, protect, and elevate your vehicle.
+                </p>
 
-<h2>Driven By Perfection.</h2>
+                <div class="hero-buttons">
 
-<p>
-At Hive Detailing, every vehicle is treated like our own.
-Our goal isn't just to clean your car—it's to restore,
-protect, and preserve it.
-</p>
+                    <a href="#contact" class="button button-primary">
+                        Get a Free Quote
+                    </a>
+
+                    <a href="#work" class="button button-secondary">
+                        View Our Work
+                    </a>
+
+                </div>
+
+                <div class="hero-details">
+
+                    <div>
+                        <strong>Interior</strong>
+                        <span>Deep cleaning and restoration</span>
+                    </div>
+
+                    <div>
+                        <strong>Exterior</strong>
+                        <span>Wash, decontamination, and protection</span>
+                    </div>
+
+                    <div>
+                        <strong>Local</strong>
+                        <span>Serving the St. Joseph area</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="#services" class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </a>
+
+        </section>
+
+        <section class="section services-section" id="services">
+
+            <div class="section-heading reveal">
+
+                <div>
+                    <p class="eyebrow">What We Do</p>
+
+                    <h2>
+                        Detailing built around your vehicle.
+                    </h2>
+                </div>
+
+                <p>
+                    From daily drivers to high-end vehicles, every service
+                    is completed with careful attention to the surfaces,
+                    materials, and condition of your car.
+                </p>
+
+            </div>
+
+            <div class="services-grid">
+
+                <article class="service-card reveal">
+
+                    <span class="service-number">01</span>
+
+                    <div class="service-icon">✦</div>
+
+                    <h3>Interior Detailing</h3>
+
+                    <p>
+                        A complete interior reset focused on removing dirt,
+                        stains, dust, odors, and buildup.
+                    </p>
+
+                    <ul>
+                        <li>Thorough vacuuming</li>
+                        <li>Carpet and seat cleaning</li>
+                        <li>Dash, console, and trim treatment</li>
+                        <li>Windows and finishing touches</li>
+                    </ul>
+
+                </article>
+
+                <article class="service-card reveal">
+
+                    <span class="service-number">02</span>
+
+                    <div class="service-icon">◇</div>
+
+                    <h3>Exterior Detailing</h3>
+
+                    <p>
+                        A careful exterior cleaning process that restores
+                        shine and protects the finish.
+                    </p>
+
+                    <ul>
+                        <li>Hand wash and dry</li>
+                        <li>Wheel and tire cleaning</li>
+                        <li>Paint decontamination</li>
+                        <li>Wax or sealant protection</li>
+                    </ul>
+
+                </article>
+
+                <article class="service-card reveal">
+
+                    <span class="service-number">03</span>
+
+                    <div class="service-icon">⬡</div>
+
+                    <h3>Full Detail</h3>
+
+                    <p>
+                        Our complete interior and exterior service for a
+                        total vehicle transformation.
+                    </p>
+
+                    <ul>
+                        <li>Interior deep cleaning</li>
+                        <li>Exterior hand detail</li>
+                        <li>Trim and tire finishing</li>
+                        <li>Final quality inspection</li>
+                    </ul>
+
+                </article>
+
+            </div>
+
+        </section>
+<section class="premium-services">
+
+    <div class="premium-header reveal">
+
+        <p class="eyebrow">Premium Services</p>
+
+        <h2>Take Your Vehicle To The Next Level</h2>
+
+        <p>
+            Looking for more than a standard detail? We also offer premium
+            paint enhancement and long-term paint protection services.
+        </p>
+
+    </div>
+
+    <div class="premium-grid">
+
+        <div class="premium-card reveal">
+
+            <span class="premium-icon">✨</span>
+
+            <h3>Paint Correction</h3>
+
+            <p>
+                Remove swirl marks, oxidation, light scratches, and restore
+                incredible depth and gloss to your paint.
+            </p>
+
+            <ul>
+                <li>✔ Swirl Removal</li>
+                <li>✔ Gloss Enhancement</li>
+                <li>✔ Scratch Reduction</li>
+                <li>✔ Machine Polishing</li>
+            </ul>
+
+        </div>
+
+        <div class="premium-card reveal">
+
+            <span class="premium-icon">🛡️</span>
+
+            <h3>Ceramic Coatings</h3>
+
+            <p>
+                Protect your investment with years of hydrophobic protection,
+                incredible shine, and easier maintenance.
+            </p>
+
+            <ul>
+                <li>✔ Extreme Water Beading</li>
+                <li>✔ UV Protection</li>
+                <li>✔ Easier Washing</li>
+                <li>✔ Long-Term Protection</li>
+            </ul>
+
+        </div>
+
+        <div class="premium-card reveal">
+
+            <span class="premium-icon">💡</span>
+
+            <h3>Headlight Restoration</h3>
+
+            <p>
+                Restore cloudy headlights for a cleaner appearance and improved
+                nighttime visibility.
+            </p>
+
+            <ul>
+                <li>✔ Removes Oxidation</li>
+                <li>✔ Improves Clarity</li>
+                <li>✔ UV Protection</li>
+                <li>✔ Better Visibility</li>
+            </ul>
+
+        </div>
+
+    </div>
 
 </section>
+        <section class="feature-banner">
 
-<section class="services">
+            <div class="feature-banner-image"></div>
+            <div class="feature-banner-overlay"></div>
 
-<h2>Our Services</h2>
+            <div class="feature-banner-content reveal">
 
-<div class="service-grid">
+                <p class="eyebrow">The Hive Standard</p>
 
-<div class="service-card">
-<h3>Interior Detail</h3>
-<p>Deep cleaning of carpets, seats, plastics, vents, and every interior surface.</p>
-</div>
+                <h2>
+                    Clean is expected.
+                    <span>Attention to detail is what sets us apart.</span>
+                </h2>
 
-<div class="service-card">
-<h3>Exterior Detail</h3>
-<p>Foam wash, clay bar, paint decontamination, polish, and premium wax.</p>
-</div>
+                <a href="#contact" class="text-link">
+                    Request your quote
+                    <span>→</span>
+                </a>
 
-<div class="service-card">
-<h3>Paint Protection</h3>
-<p>Ceramic coatings and sealants designed to protect your investment.</p>
-</div>
+            </div>
 
-</div>
+        </section>
 
+      
 </section>
 
-<section class="cta">
+        <section class="section work-section" id="work">
 
-<h2>Ready To Love Your Car Again?</h2>
+            <div class="section-heading reveal">
 
-<a href="#">Get a Free Quote</a>
+                <div>
+                    <p class="eyebrow">Featured Work</p>
 
-</section>
+                    <h2>
+                        Results that speak for themselves.
+                    </h2>
+                </div>
 
-<footer>
+                <p>
+                    A closer look at the vehicles and interiors we have
+                    cleaned, restored, and refreshed.
+                </p>
 
-<p>© 2026 Hive Detailing</p>
+            </div>
 
-</footer>
+            <div class="gallery-grid">
+
+                <figure class="gallery-item gallery-large reveal">
+
+                    <img
+                        src="images/porsche.jpg"
+                        alt="Blue Porsche after professional detailing"
+                    >
+
+                    <figcaption>
+                        <span>Exterior Detail</span>
+                        <strong>Porsche</strong>
+                    </figcaption>
+
+                </figure>
+
+                <figure class="gallery-item reveal">
+
+                    <img
+                        src="images/ferrari.jpg"
+                        alt="Ferrari after professional detailing"
+                    >
+
+                    <figcaption>
+                        <span>Premium Care</span>
+                        <strong>Ferrari</strong>
+                    </figcaption>
+
+                </figure>
+
+                <figure class="gallery-item reveal">
+
+                    <img
+                        src="images/truck-front.jpg"
+                        alt="Freshly detailed truck front interior"
+                    >
+
+                    <figcaption>
+                        <span>Interior Detail</span>
+                        <strong>Front Cabin</strong>
+                    </figcaption>
+
+                </figure>
+
+                <figure class="gallery-item reveal">
+
+                    <img
+                        src="images/truck-rear-seat.jpg"
+                        alt="Freshly detailed truck rear seats"
+                    >
+
+                    <figcaption>
+                        <span>Deep Cleaning</span>
+                        <strong>Rear Interior</strong>
+                    </figcaption>
+
+                </figure>
+
+                <figure class="gallery-item reveal">
+
+                    <img
+                        src="images/truck-back.jpg"
+                        alt="Detailed truck back-seat area"
+                    >
+
+                    <figcaption>
+                        <span>Interior Restoration</span>
+                        <strong>Full Cabin</strong>
+                    </figcaption>
+
+                </figure>
+
+            </div>
+
+        </section>
+
+        <section class="section about-section" id="about">
+
+            <div class="about-grid">
+
+                <div class="about-image reveal">
+
+                    <img
+                        src="images/ferrari.jpg"
+                        alt="Professionally detailed performance vehicle"
+                    >
+
+                    <div class="image-badge">
+                        <strong>Hive</strong>
+                        <span>Premium vehicle care</span>
+                    </div>
+
+                </div>
+
+                <div class="about-content reveal">
+
+                    <p class="eyebrow">Why Choose Hive</p>
+
+                    <h2>
+                        Professional results without the rushed car-wash feel.
+                    </h2>
+
+                    <p class="about-intro">
+                        Hive Detailing was built around a simple idea:
+                        treat every vehicle with patience, care, and pride.
+                    </p>
+
+                    <div class="benefit-list">
+
+                        <div class="benefit">
+
+                            <span>01</span>
+
+                            <div>
+                                <h3>Detail-focused service</h3>
+
+                                <p>
+                                    We take the time to clean the areas that
+                                    quick washes and rushed jobs overlook.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="benefit">
+
+                            <span>02</span>
+
+                            <div>
+                                <h3>Quality products</h3>
+
+                                <p>
+                                    Products are selected to safely clean,
+                                    restore, and protect each surface.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="benefit">
+
+                            <span>03</span>
+
+                            <div>
+                                <h3>Local and dependable</h3>
+
+                                <p>
+                                    Clear communication, honest service, and
+                                    results we are proud to stand behind.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="process-section">
+
+            <div class="section process-container">
+
+                <div class="section-heading reveal">
+
+                    <div>
+                        <p class="eyebrow">Simple Process</p>
+
+                        <h2>
+                            From quote to clean car.
+                        </h2>
+                    </div>
+
+                    <p>
+                        Getting started is easy. Send us your vehicle
+                        information and we will help you choose the right
+                        service.
+                    </p>
+
+                </div>
+
+                <div class="process-grid">
+
+                    <article class="process-step reveal">
+                        <span>01</span>
+                        <h3>Request a Quote</h3>
+                        <p>
+                            Tell us your vehicle type, condition, and the
+                            service you are interested in.
+                        </p>
+                    </article>
+
+                    <article class="process-step reveal">
+                        <span>02</span>
+                        <h3>Choose a Time</h3>
+                        <p>
+                            We will confirm the details and find an
+                            appointment time that works.
+                        </p>
+                    </article>
+
+                    <article class="process-step reveal">
+                        <span>03</span>
+                        <h3>Enjoy the Results</h3>
+                        <p>
+                            We complete the detail and walk through the
+                            finished vehicle with you.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section contact-section" id="contact">
+
+            <div class="contact-card reveal">
+
+                <div class="contact-copy">
+
+                    <p class="eyebrow">Book Your Detail</p>
+
+                    <h2>
+                        Ready to bring your vehicle back to life?
+                    </h2>
+
+                    <p>
+                        Send us a message with your vehicle information and
+                        the service you need. We will respond with pricing
+                        and availability.
+                    </p>
+
+                    <div class="contact-information">
+
+                        <a href="tel:+18162946773">
+                            <span>Phone</span>
+                            (816) 294-6773
+                        </a>
+
+                        <a href="mailto:HiveDetailngMO@gmail.com">
+                            <span>Email</span>
+                            HiveDetailngMO@gmail.com
+                        </a>
+
+                        <div>
+                            <span>Service Area</span>
+                            St. Joseph and Liberty, Missouri
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <form
+                    class="quote-form"
+                    action="https://formsubmit.co/HiveDetailngMO@gmail.com"
+                    method="POST"
+                >
+
+                    <input
+                        type="hidden"
+                        name="_subject"
+                        value="New Hive Detailing Quote Request"
+                    >
+
+                    <input
+                        type="hidden"
+                        name="_captcha"
+                        value="false"
+                    >
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="John Smith"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="(816) 555-1234"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="vehicle">Vehicle</label>
+
+                            <input
+                                type="text"
+                                id="vehicle"
+                                name="vehicle"
+                                placeholder="2020 Ford F-150"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service</label>
+
+                            <select
+                                id="service"
+                                name="service"
+                                required
+                            >
+                                <option value="">Select a service</option>
+                                <option>Interior Detail</option>
+                                <option>Exterior Detail</option>
+                                <option>Full Detail</option>
+                                <option>Not Sure Yet</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Tell Us About Your Vehicle</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Tell us about the vehicle's condition and what you would like cleaned."
+                        ></textarea>
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="button button-primary form-button"
+                    >
+                        Request My Quote
+                    </button>
+
+                    <p class="form-note">
+                        Replace the example email address in this form before
+                        publishing the website.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <img
+                    src="images/logo.png"
+                    alt="Hive Detailing"
+                >
+
+                <div>
+                    <strong>Hive Detailing</strong>
+                    <span>Premium auto detailing</span>
+                </div>
+
+            </div>
+
+            <div class="footer-links">
+                <a href="#services">Services</a>
+                <a href="#work">Our Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <p>
+                © <span id="currentYear"></span> Hive Detailing.
+                All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
