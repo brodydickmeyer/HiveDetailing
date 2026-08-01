@@ -1,2 +1,0 @@
-# HiveDetailing
-Detailing webpage
